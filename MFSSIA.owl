@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#deliversChallenge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#deliversChallenge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#develops -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#develops"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasAntromorpohicProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasAntromorpohicProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasRelation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#partOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challenge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challenge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#expirationTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#expirationTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuerSignature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuerSignature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#recipient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#recipient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityProtocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Believe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Believe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Biometric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Biometric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetProvider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetProvider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#DAO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#DAO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#HealthTrackerBand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#HealthTrackerBand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Mobile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Mobile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SSI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SSI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityProtocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityProtocol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartWatch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartWatch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
