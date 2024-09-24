@@ -34,6 +34,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:event -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:event"/>
+    
+
+
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:goal -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:goal"/>
@@ -52,6 +58,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:phase -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:phase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:quality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:quality"/>
+    
+
+
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:relator -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:relator"/>
@@ -61,6 +79,12 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:role -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:socialObject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:socialObject"/>
     
 
 
@@ -550,6 +574,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+        <ufo:event rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:event>
     </owl:Class>
     
 
@@ -564,6 +589,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ufo:event rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:event>
     </owl:Class>
     
 
@@ -680,6 +706,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:mode>
     </owl:Class>
     
 
@@ -715,6 +742,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Believe"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental property</ufo:mode>
     </owl:Class>
     
 
@@ -723,6 +751,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
+        <ufo:phase rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:phase>
     </owl:Class>
     
 
@@ -731,6 +760,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
     </owl:Class>
     
 
@@ -779,6 +809,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Ownership">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:mode>
     </owl:Class>
     
 
