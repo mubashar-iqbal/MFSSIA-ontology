@@ -117,6 +117,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains">
@@ -201,6 +212,16 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
     </owl:ObjectProperty>
     
 
@@ -318,6 +339,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isReliedUponBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isReliedUponBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy">
@@ -388,6 +420,16 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
     </owl:ObjectProperty>
     
 
@@ -510,8 +552,21 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent">
-        <ufo:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:category>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRegisteredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:category></ufo:category>
+        <rdfs:label>Agent</rdfs:label>
     </owl:Class>
     
 
@@ -520,8 +575,26 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropomorphic</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#dealsWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCharacteristicOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:role></ufo:role>
+        <rdfs:label>Anthropomorphic</rdfs:label>
     </owl:Class>
     
 
@@ -529,8 +602,21 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset">
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asset</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isOperatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:kind></ufo:kind>
+        <rdfs:label>Asset</rdfs:label>
     </owl:Class>
     
 
@@ -538,20 +624,33 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDealtBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isFocusedOnBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#triggers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <ufo:goal rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:goal>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Authentication</rdfs:label>
+        <ufo:goal></ufo:goal>
+        <rdfs:label>Authentication</rdfs:label>
     </owl:Class>
     
 
@@ -560,8 +659,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <ufo:relator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:relator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDICharacteristic</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isContainedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:relator></ufo:relator>
+        <rdfs:label>BDICharacteristic</rdfs:label>
     </owl:Class>
     
 
@@ -570,8 +675,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
-        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:mode>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belief</rdfs:label>
+        <ufo:mode></ufo:mode>
+        <rdfs:label>Belief</rdfs:label>
     </owl:Class>
     
 
@@ -580,8 +685,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Biometric">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
-        <ufo:collective rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:collective>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biometric</rdfs:label>
+        <ufo:mode></ufo:mode>
+        <rdfs:label>Biometric</rdfs:label>
     </owl:Class>
     
 
@@ -589,6 +694,7 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDevelopedBy"/>
@@ -597,18 +703,18 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isHeldBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#sends"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <ufo:fixedCollective></ufo:fixedCollective>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Challenge</rdfs:label>
+        <rdfs:label>Challenge</rdfs:label>
     </owl:Class>
     
 
@@ -623,8 +729,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:role rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:role>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChallengeProvider</rdfs:label>
+        <ufo:role></ufo:role>
+        <rdfs:label>ChallengeProvider</rdfs:label>
     </owl:Class>
     
 
@@ -632,8 +738,21 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest">
-        <ufo:event rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:event>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChallengeRequest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isTriggeredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#requests"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:event></ufo:event>
+        <rdfs:label>ChallengeRequest</rdfs:label>
     </owl:Class>
     
 
@@ -641,14 +760,21 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isSentBy"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:event rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:event>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChallengeResponse</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isUsedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:event></ufo:event>
+        <rdfs:label>ChallengeResponse</rdfs:label>
     </owl:Class>
     
 
@@ -659,12 +785,24 @@
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isUsedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#holds"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:collective rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:collective>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChallengeSet</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:collective></ufo:collective>
+        <rdfs:label>ChallengeSet</rdfs:label>
     </owl:Class>
     
 
@@ -676,17 +814,11 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:role rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:role>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChallengeSetMarketplace</rdfs:label>
+        <ufo:role></ufo:role>
+        <rdfs:label>ChallengeSetMarketplace</rdfs:label>
     </owl:Class>
     
 
@@ -695,8 +827,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#DAO">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAO</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>DAO</rdfs:label>
     </owl:Class>
     
 
@@ -704,8 +836,21 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data">
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCreatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:kind></ufo:kind>
+        <rdfs:label>Data</rdfs:label>
     </owl:Class>
     
 
@@ -720,8 +865,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:mode>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desire</rdfs:label>
+        <ufo:mode></ufo:mode>
+        <rdfs:label>Desire</rdfs:label>
     </owl:Class>
     
 
@@ -730,8 +875,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Diagnosis">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
-        <ufo:event rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:event>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</rdfs:label>
+        <ufo:event></ufo:event>
+        <rdfs:label>Diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -740,8 +885,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human</rdfs:label>
+        <ufo:kind></ufo:kind>
+        <rdfs:label>Human</rdfs:label>
     </owl:Class>
     
 
@@ -750,8 +895,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:category>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identity</rdfs:label>
+        <ufo:category></ufo:category>
+        <rdfs:label>Identity</rdfs:label>
     </owl:Class>
     
 
@@ -760,8 +905,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insuree">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insuree</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Insuree</rdfs:label>
     </owl:Class>
     
 
@@ -770,8 +915,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insurer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insurer</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Insurer</rdfs:label>
     </owl:Class>
     
 
@@ -786,8 +931,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:mode>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intention</rdfs:label>
+        <ufo:mode></ufo:mode>
+        <rdfs:label>Intention</rdfs:label>
     </owl:Class>
     
 
@@ -796,8 +941,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:mode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental property</ufo:mode>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge</rdfs:label>
+        <ufo:mode>Mental property</ufo:mode>
+        <rdfs:label>Knowledge</rdfs:label>
     </owl:Class>
     
 
@@ -806,8 +951,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
-        <ufo:relator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:relator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LegalContract</rdfs:label>
+        <ufo:relator></ufo:relator>
+        <rdfs:label>LegalContract</rdfs:label>
     </owl:Class>
     
 
@@ -816,8 +961,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:category>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LegalDocument</rdfs:label>
+        <ufo:category></ufo:category>
+        <rdfs:label>LegalDocument</rdfs:label>
     </owl:Class>
     
 
@@ -826,8 +971,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
-        <ufo:relator rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:relator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">License</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:relator></ufo:relator>
+        <rdfs:label>License</rdfs:label>
     </owl:Class>
     
 
@@ -836,8 +987,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
-        <ufo:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:type>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LicenseType</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:type></ufo:type>
+        <rdfs:label>LicenseType</rdfs:label>
     </owl:Class>
     
 
@@ -846,8 +1003,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Mobile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Mobile</rdfs:label>
     </owl:Class>
     
 
@@ -862,8 +1019,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NonHuman</rdfs:label>
+        <ufo:kind></ufo:kind>
+        <rdfs:label>NonHuman</rdfs:label>
     </owl:Class>
     
 
@@ -872,8 +1029,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <ufo:kind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:kind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#registers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo:kind></ufo:kind>
+        <rdfs:label>Organization</rdfs:label>
     </owl:Class>
     
 
@@ -883,7 +1046,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#OwnershipProof">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
         <ufo:category></ufo:category>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OwnershipProof</rdfs:label>
+        <rdfs:label>OwnershipProof</rdfs:label>
     </owl:Class>
     
 
@@ -892,7 +1055,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Risk">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk</rdfs:label>
+        <rdfs:label>Risk</rdfs:label>
     </owl:Class>
     
 
@@ -901,8 +1064,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityPolicy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:category>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SecurityPolicy</rdfs:label>
+        <ufo:category></ufo:category>
+        <rdfs:label>SecurityPolicy</rdfs:label>
     </owl:Class>
     
 
@@ -911,8 +1074,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SelfSovereignIdentity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
-        <ufo:collective rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:collective>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SelfSovereignIdentity</rdfs:label>
+        <ufo:category></ufo:category>
+        <rdfs:label>SelfSovereignIdentity</rdfs:label>
     </owl:Class>
     
 
@@ -921,8 +1084,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Sensor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensor</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Sensor</rdfs:label>
     </owl:Class>
     
 
@@ -933,12 +1096,18 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmartDevice</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>SmartDevice</rdfs:label>
     </owl:Class>
     
 
@@ -947,8 +1116,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Smartwatch">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smartwatch</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Smartwatch</rdfs:label>
     </owl:Class>
     
 
@@ -957,12 +1126,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Specialist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ufo:subKind>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialist</rdfs:label>
+        <ufo:subKind></ufo:subKind>
+        <rdfs:label>Specialist</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
