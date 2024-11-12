@@ -25,79 +25,105 @@
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:category -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:category"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:category">
+        <rdfs:comment>To classify high-level groupings of entities.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:collective -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:collective"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:collective">
+        <rdfs:comment>To represent groups of individuals organized as a whole.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:event -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:event"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:event">
+        <rdfs:comment>To mark occurrences or actions that unfold over time and impact entities.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:fixedCollective -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:fixedCollective"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:fixedCollective">
+        <rdfs:comment>To specify collectives with a fixed, non-substitutable composition.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:goal -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:goal"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:goal">
+        <rdfs:comment>To designate desired outcomes or purposes.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:kind -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:kind"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:kind">
+        <rdfs:comment>To realize that a class represents a fundamental entity.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:mode -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:mode"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:phase -->
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:phase"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:quality -->
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:quality"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:mode">
+        <rdfs:comment>To indicate intrinsic, dependent qualities.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:relator -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:relator"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:relator">
+        <rdfs:comment>To identify complex relationships that connect multiple entities.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:role -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:role"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:role">
+        <rdfs:comment>To identify classes that represent context-dependent behaviors.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:subKind -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:subKind"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:subKind">
+        <rdfs:comment>To to specify classes as specific subtypes of a broader Kind.</rdfs:comment>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:type -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:type"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:type">
+        <rdfs:comment>To classify general identifiers or labels that categorize entities.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:comment>To facilitate documentation of complex classes, properties, and individuals.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:comment>To define human-readable identifiers for classes and properties.</rdfs:comment>
+    </rdf:Description>
     
 
 
@@ -481,19 +507,26 @@
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime"/>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -569,8 +602,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:category></ufo1:category>
-        <rdfs:comment></rdfs:comment>
+        <ufo1:category>High-level category that groups entities capable of intentional actions.</ufo1:category>
         <rdfs:label>Agent</rdfs:label>
     </owl:Class>
     
