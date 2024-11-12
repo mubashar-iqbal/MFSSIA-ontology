@@ -6,8 +6,9 @@
      xmlns:ufo="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ufo1="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology"/>
     
 
 
@@ -22,87 +23,81 @@
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:category -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:category -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:category"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:category"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:collective -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:collective -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:collective"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:collective"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:event -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:event -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:event"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:event"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:fixedCollective -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:fixedCollective -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:fixedCollective"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:fixedCollective"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:goal -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:goal -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:goal"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:goal"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:kind -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:kind -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:kind"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:kind"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:mode -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:mode -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:mode"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:mode"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:phase -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:phase -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:phase"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:phase"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:quality -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:quality -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:quality"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:quality"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:relator -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:relator -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:relator"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:relator"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:role -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:role -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:role"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:role"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:socialObject -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:subKind -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:socialObject"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:subKind"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:subKind -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:type -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:subKind"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:type -->
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:type"/>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:type"/>
     
 
 
@@ -117,358 +112,358 @@
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#categorizes -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#categorizes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCategorizedBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#contains -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isContainedBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#contains">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isContainedBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#creates -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCreatedBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#creates">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCreatedBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#dealsWith -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#dealsWith -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#dealsWith">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDealtBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#dealsWith">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDealtBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#develops -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#develops -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#develops">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDevelopedBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#develops">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDevelopedBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeProvider"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#extends -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#extends">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isExtendedBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#focusesOn -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#focusesOn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#focusesOn">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isFocusedOnBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#focusesOn">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isFocusedOnBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasCharacteristic -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#hasCharacteristic -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasCharacteristic">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCharacteristicOf"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#holds -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#holds">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isHeldBy"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#hasCharacteristic">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCharacteristicOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#holds -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCharacteristicOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCharacteristicOf">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#holds">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isHeldBy"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isContainedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCategorizedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isContainedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCategorizedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCreatedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCharacteristicOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCreatedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCharacteristicOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDealtBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isContainedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDealtBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isContainedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDevelopedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCreatedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDevelopedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCreatedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeProvider"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDealtBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDealtBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isFocusedOnBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDevelopedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isFocusedOnBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDevelopedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isHeldBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isExtendedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isHeldBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isExtendedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isOperatedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isFocusedOnBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isOperatedBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isFocusedOnBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isHeldBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isHeldBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRegisteredBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isOperatedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRegisteredBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#registers"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isOperatedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#operatesWith"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isReliedUponBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isProvidedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isReliedUponBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isProvidedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#provides"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRegisteredBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#requests"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRegisteredBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#registers"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isSentBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isReliedUponBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isSentBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#sends"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isReliedUponBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#reliesOn"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isTriggeredBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRequestedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isTriggeredBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#triggers"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRequestedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#requests"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isUsedBy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isSentBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isUsedBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isSentBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#sends"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isTriggeredBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isTriggeredBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#triggers"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isUsedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isUsedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#uses"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#operatesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#operatesWith">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#provides -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#provides">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#registers -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#registers -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#registers">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#registers">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#reliesOn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#reliesOn">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#reliesOn">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#requests -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#requests -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#requests">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#requests">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#sends -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#sends -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#sends">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#sends">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#triggers -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#triggers -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#triggers">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#triggers">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#uses -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#uses">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
     </owl:ObjectProperty>
     
 
@@ -484,57 +479,57 @@
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeDetail -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeDetail"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeTime -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#challengeTime"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#expirationTime -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#expirationTime"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#id -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#id -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#id"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#id"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuer -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuer -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuer"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuer"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuerSignature -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuerSignature -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#issuerSignature"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuerSignature"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#recipient -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#recipient -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#recipient"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#recipient"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseTime -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseTime"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseTime"/>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseValue -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#responseValue"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseValue"/>
     
 
 
@@ -549,584 +544,669 @@
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#hasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#hasCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRegisteredBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRegisteredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:category></ufo:category>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:category></ufo1:category>
+        <rdfs:comment></rdfs:comment>
         <rdfs:label>Agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#contains"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCharacteristicOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#dealsWith"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#dealsWith"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCharacteristicOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#contains"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:role></ufo:role>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:role></ufo1:role>
         <rdfs:label>Anthropomorphic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isExtendedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isOperatedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isOperatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:kind></ufo:kind>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:kind></ufo1:kind>
         <rdfs:label>Asset</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDealtBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDealtBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isFocusedOnBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isFocusedOnBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#triggers"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#triggers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#uses"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:goal></ufo:goal>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:goal></ufo1:goal>
         <rdfs:label>Authentication</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isContainedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Antropomorphic"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isContainedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:relator></ufo:relator>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:relator></ufo1:relator>
         <rdfs:label>BDICharacteristic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Belief">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
-        <ufo:mode></ufo:mode>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#reliesOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo1:mode></ufo1:mode>
         <rdfs:label>Belief</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Biometric -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Biometric -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Biometric">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
-        <ufo:mode></ufo:mode>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Biometric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity"/>
+        <ufo1:mode></ufo1:mode>
         <rdfs:label>Biometric</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isDevelopedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeProvider"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isDevelopedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isHeldBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isHeldBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#sends"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#sends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:fixedCollective></ufo:fixedCollective>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:fixedCollective></ufo1:fixedCollective>
         <rdfs:label>Challenge</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeProvider -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeProvider">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#develops"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#develops"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:role></ufo:role>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:role></ufo1:role>
         <rdfs:label>ChallengeProvider</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isTriggeredBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isTriggeredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#requests"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#requests"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:event></ufo:event>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:event></ufo1:event>
         <rdfs:label>ChallengeRequest</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeResponse">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isSentBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isSentBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isUsedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isUsedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:event></ufo:event>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:event></ufo1:event>
         <rdfs:label>ChallengeResponse</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#holds"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#holds"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isProvidedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isProvidedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isRequestedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeRequest"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isRequestedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:collective></ufo:collective>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:collective></ufo1:collective>
         <rdfs:label>ChallengeSet</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSetMarketplace">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#provides"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ChallengeSet"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#provides"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:role></ufo:role>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:role></ufo1:role>
         <rdfs:label>ChallengeSetMarketplace</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#DAO -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#DAO -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#DAO">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#DAO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>DAO</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#extends"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCreatedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCreatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:kind></ufo:kind>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <ufo1:kind></ufo1:kind>
         <rdfs:label>Data</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Desire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#operatesWith"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Asset"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#operatesWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:mode></ufo:mode>
+        <ufo1:mode></ufo1:mode>
         <rdfs:label>Desire</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Diagnosis -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Diagnosis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Diagnosis">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
-        <ufo:event></ufo:event>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
+        <ufo1:event></ufo1:event>
         <rdfs:label>Diagnosis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
-        <ufo:kind></ufo:kind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
+        <ufo1:kind></ufo1:kind>
         <rdfs:label>Human</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category></ufo:category>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <ufo1:category></ufo1:category>
         <rdfs:label>Identity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insuree -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insuree -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insuree">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insuree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Insuree</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insurer -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insurer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Insurer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insurer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Insurer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Intention">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#BDICharacteristic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#focusesOn"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Authentication"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#focusesOn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:mode></ufo:mode>
+        <ufo1:mode></ufo1:mode>
         <rdfs:label>Intention</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:mode>Mental property</ufo:mode>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isReliedUponBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ufo1:mode>Mental property</ufo1:mode>
         <rdfs:label>Knowledge</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalContract -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalContract">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
-        <ufo:relator></ufo:relator>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalContract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument"/>
+        <ufo1:relator></ufo1:relator>
         <rdfs:label>LegalContract</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category></ufo:category>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <ufo1:category></ufo1:category>
         <rdfs:label>LegalDocument</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LegalDocument"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isCategorizedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isCategorizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:relator></ufo:relator>
+        <ufo1:relator></ufo1:relator>
         <rdfs:label>License</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#LicenseType">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#categorizes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#License"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#categorizes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:type></ufo:type>
+        <ufo1:type></ufo1:type>
         <rdfs:label>LicenseType</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Mobile -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Mobile -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Mobile">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Mobile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Mobile</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#NonHuman -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#NonHuman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#isExtendedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#isExtendedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:kind></ufo:kind>
+        <ufo1:kind></ufo1:kind>
         <rdfs:label>NonHuman</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Organization">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#registers"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Agent"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#registers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo:kind></ufo:kind>
+        <ufo1:kind></ufo1:kind>
         <rdfs:label>Organization</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#OwnershipProof -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#OwnershipProof -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#OwnershipProof">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category></ufo:category>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#OwnershipProof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <ufo1:category></ufo1:category>
         <rdfs:label>OwnershipProof</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Risk -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Risk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Knowledge"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
         <rdfs:label>Risk</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityPolicy -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SecurityPolicy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SecurityPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Challenge"/>
-        <ufo:category></ufo:category>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SecurityPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <ufo1:category></ufo1:category>
         <rdfs:label>SecurityPolicy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SelfSovereignIdentity -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SelfSovereignIdentity -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SelfSovereignIdentity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Identity"/>
-        <ufo:category></ufo:category>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SelfSovereignIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity"/>
+        <ufo1:category></ufo1:category>
         <rdfs:label>SelfSovereignIdentity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Sensor -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Sensor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Sensor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Sensor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#NonHuman"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#creates"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Data"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#creates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#extends"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#NonHuman"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <ufo:subKind></ufo:subKind>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>SmartDevice</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Smartwatch -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Smartwatch -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Smartwatch">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#SmartDevice"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Smartwatch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Smartwatch</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Specialist -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Specialist -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Specialist">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#Human"/>
-        <ufo:subKind></ufo:subKind>
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Specialist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
+        <ufo1:subKind></ufo1:subKind>
         <rdfs:label>Specialist</rdfs:label>
     </owl:Class>
 </rdf:RDF>
