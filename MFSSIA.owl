@@ -1,14 +1,22 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#"
      xml:base="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:ufo="http://www.semanticweb.org/mubashar/ontologies/2024/4/untitled-ontology-2#ufo:"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ufo1="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology"/>
+     xmlns:ufo1="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ufo:"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology">
+        <dc:creator>Mubashar Iqbal (mubashar.iqbal@ut.ee), Alexandr Kormiltsyn (alexandrkormiltsyn@gmail.com), Vimal Kumar Dwivedi (), Alex Norta (alex.norta.phd@ieee.org),  and Raimundas Matulevičius (rma@ut.ee)</dc:creator>
+        <terms:license>https://creativecommons.org/licenses/by/4.0</terms:license>
+        <rdfs:comment>Ontology of Blockchain-based Multi-Factor Challenge Set Self-Sovereign Identity Authentication</rdfs:comment>
+        <rdfs:label>MFSSIA Ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -20,6 +28,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -145,6 +165,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
+        <rdfs:comment>Description logic is &quot;categorizes some License&quot;.</rdfs:comment>
+        <rdfs:label>categorizes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -156,6 +178,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
+        <rdfs:comment>Description logic: &quot;contains max 3 BDICharacteristic&quot;.</rdfs:comment>
+        <rdfs:label>contains</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -167,6 +191,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <rdfs:comment>Description logic: &quot;creates some Data&quot;.</rdfs:comment>
+        <rdfs:label>creates</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -178,6 +204,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:comment>Description logic: &quot;dealsWith exactly 1 Authentication&quot;.</rdfs:comment>
+        <rdfs:label>dealsWith</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -189,6 +217,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:comment>Description logic: &quot;develops some Challenge&quot;.</rdfs:comment>
+        <rdfs:label>develops</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -200,6 +230,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
+        <rdfs:comment>Description logic: &quot;extends some Asset&quot;.</rdfs:comment>
+        <rdfs:label>extends</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -211,6 +243,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:comment>Description logic: &quot;focusesOn exactly 1 Authentication&quot;.</rdfs:comment>
+        <rdfs:label>focusesOn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -222,6 +256,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:comment>Description logic: &quot;hasCharacteristic some Anthropomorphic&quot;.</rdfs:comment>
+        <rdfs:label>hasCharacteristic</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -233,6 +269,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:comment>Description logic: &quot;holds some Challenge&quot;.</rdfs:comment>
+        <rdfs:label>holds</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -243,6 +281,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
+        <rdfs:comment>Description logic: &quot;isCategorizedBy some LicenseType&quot;.</rdfs:comment>
+        <rdfs:label>isCategorizedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -253,6 +293,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
+        <rdfs:comment>Description logic: &quot;isCharacteristicOf some Agent&quot;.</rdfs:comment>
+        <rdfs:label>isCharacteristicBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -263,6 +305,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BDICharacteristic"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:comment>Description logic: &quot;isContainedBy exactly 1 Anthropomorphic&quot;.</rdfs:comment>
+        <rdfs:label>isContainedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -273,6 +317,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
+        <rdfs:comment>Description logic: &quot;isCreatedBy some SmartDevice&quot;.</rdfs:comment>
+        <rdfs:label>isCreatedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -283,6 +329,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Antropomorphic"/>
+        <rdfs:comment>Description logic: &quot;isDealtBy exactly 1 Anthropomorphic&quot;.</rdfs:comment>
+        <rdfs:label>isDealtBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -293,6 +341,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeProvider"/>
+        <rdfs:comment>Description logic: &quot;isDevelopedBy some ChallengeProvider&quot;.</rdfs:comment>
+        <rdfs:label>isDevelopedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -303,6 +353,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
+        <rdfs:comment>Description logic: &quot;isExtendedBy some Data&quot;.</rdfs:comment>
+        <rdfs:label>isExtendedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -313,6 +365,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Intention"/>
+        <rdfs:comment>Description logic: &quot;isFocusedOnBy some Intention&quot;.</rdfs:comment>
+        <rdfs:label>isFocusedOnBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -323,6 +377,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:comment>Description logic: &quot;isHeldBy some ChallengeSet&quot;.</rdfs:comment>
+        <rdfs:label>isHeldBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -334,6 +390,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire"/>
+        <rdfs:comment>Description logic: &quot;isOperatedBy some Desire&quot;.</rdfs:comment>
+        <rdfs:label>isOperatedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -345,6 +403,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
+        <rdfs:comment>Description logic: &quot;isProvidedBy some ChallengeSetMarketplace&quot;.</rdfs:comment>
+        <rdfs:label>isProvidedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -356,6 +416,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
+        <rdfs:comment>Description logic: &quot;isRegisteredBy some Organization&quot;.</rdfs:comment>
+        <rdfs:label>isRegisteredBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -367,6 +429,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
+        <rdfs:comment>Description logic: &quot;isReliedUponBy some Belief&quot;.</rdfs:comment>
+        <rdfs:label>isReliedUponBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -378,6 +442,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <rdfs:comment>Description logic: &quot;isRequestedBy some ChallengeRequest&quot;.</rdfs:comment>
+        <rdfs:label>isRequestedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -389,6 +455,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:comment>Description logic: &quot;isSentBy some Challenge&quot;.</rdfs:comment>
+        <rdfs:label>isSentBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -400,6 +468,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:comment>Description logic: &quot;isTriggeredBy some Authentication&quot;.</rdfs:comment>
+        <rdfs:label>isTriggeredBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -411,6 +481,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
+        <rdfs:comment>Description logic: &quot;isUsedBy some Authentication&quot;.</rdfs:comment>
+        <rdfs:label>isUsedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -421,6 +493,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Desire"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
+        <rdfs:comment>Description logic: &quot;operatesWith some Asset&quot;.</rdfs:comment>
+        <rdfs:label>operatesWith</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -431,6 +505,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:comment>Description logic: &quot;provides some ChallengeSet&quot;.</rdfs:comment>
+        <rdfs:label>provides</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -441,6 +517,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
+        <rdfs:comment>Description logic: &quot;registers some Agent&quot;.</rdfs:comment>
+        <rdfs:label>registers</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -451,6 +529,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
+        <rdfs:comment>Description logic: &quot;reliesOn some Knowledge&quot;.</rdfs:comment>
+        <rdfs:label>reliesOn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -461,6 +541,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
+        <rdfs:comment>Description logic: &quot;requests some ChallengeSet&quot;.</rdfs:comment>
+        <rdfs:label>requests</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -470,6 +552,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#sends">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <rdfs:comment>Description logic: &quot;sends some ChallengeResponse&quot;.</rdfs:comment>
+        <rdfs:label>sends</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -480,6 +564,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeRequest"/>
+        <rdfs:comment>Description logic: &quot;triggers some ChallengeRequest&quot;.</rdfs:comment>
+        <rdfs:label>triggers</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -490,6 +576,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeResponse"/>
+        <rdfs:comment>Description logic: &quot;uses some ChallengeResponse&quot;.</rdfs:comment>
+        <rdfs:label>uses</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -508,7 +596,9 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeDetail">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime"/>
     </owl:DatatypeProperty>
     
@@ -517,7 +607,9 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
@@ -525,44 +617,20 @@
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#expirationTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#id -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#id"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuer -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuer"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuerSignature -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#issuerSignature"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#recipient -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#recipient"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseTime -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseTime"/>
-    
-
-
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#responseValue"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -602,7 +670,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:category>High-level category that groups entities capable of intentional actions.</ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Agent is a high-level category that groups entities capable of intentional actions.</rdfs:comment>
         <rdfs:label>Agent</rdfs:label>
     </owl:Class>
     
@@ -643,7 +712,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:role></ufo1:role>
+        <ufo1:role>This class belongs to UFO&apos;s &quot;Role&quot; concept.</ufo1:role>
+        <rdfs:comment>This concept describes entities that assume human-like characteristics.</rdfs:comment>
         <rdfs:label>Anthropomorphic</rdfs:label>
     </owl:Class>
     
@@ -674,7 +744,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSet"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:kind></ufo1:kind>
+        <ufo1:kind>This class belongs to UFO&apos;s &quot;Kind&quot; concept.</ufo1:kind>
+        <rdfs:comment>This concept represents resources or items of value.</rdfs:comment>
         <rdfs:label>Asset</rdfs:label>
     </owl:Class>
     
@@ -717,7 +788,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:goal></ufo1:goal>
+        <ufo1:goal>This class belongs to UFO&apos;s &quot;Goal&quot; concept.</ufo1:goal>
+        <rdfs:comment>Goal represents an intended outcome or purpose.</rdfs:comment>
         <rdfs:label>Authentication</rdfs:label>
     </owl:Class>
     
@@ -742,7 +814,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:relator></ufo1:relator>
+        <ufo1:relator>This class belongs to UFO&apos;s &quot;Relator&quot; concept.</ufo1:relator>
+        <rdfs:comment>This concept mediates relationships between entities.</rdfs:comment>
         <rdfs:label>BDICharacteristic</rdfs:label>
     </owl:Class>
     
@@ -758,18 +831,20 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:mode></ufo1:mode>
+        <ufo1:mode>This class belongs to UFO&apos;s &quot;Mode&quot; concept.</ufo1:mode>
+        <rdfs:comment>This concept captures the information or understanding an agent holds to be true.</rdfs:comment>
         <rdfs:label>Belief</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Biometric -->
+    <!-- http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BiometricIdentity -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Biometric">
+    <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#BiometricIdentity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity"/>
-        <ufo1:mode></ufo1:mode>
-        <rdfs:label>Biometric</rdfs:label>
+        <ufo1:mode>This class belongs to UFO&apos;s &quot;Mode&quot; concept.</ufo1:mode>
+        <rdfs:comment>This concept represents set of biometric characteristics (e.g., fingerprints, iris patterns, facial structure).</rdfs:comment>
+        <rdfs:label>BiometricIdentity</rdfs:label>
     </owl:Class>
     
 
@@ -803,7 +878,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:fixedCollective></ufo1:fixedCollective>
+        <ufo1:fixedCollective>This class belongs to UFO&apos;s &quot;FixedCollective&quot; concept.</ufo1:fixedCollective>
+        <rdfs:comment>A collective entity with a fixed composition of parts.</rdfs:comment>
         <rdfs:label>Challenge</rdfs:label>
     </owl:Class>
     
@@ -825,7 +901,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:role></ufo1:role>
+        <ufo1:role>This class belongs to UFO&apos;s &quot;Role&quot; concept.</ufo1:role>
+        <rdfs:comment>Responsible for supplying challenges within an authentication process.</rdfs:comment>
         <rdfs:label>ChallengeProvider</rdfs:label>
     </owl:Class>
     
@@ -852,7 +929,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:event></ufo1:event>
+        <ufo1:event>This class belongs to UFO&apos;s &quot;Event&quot; concept.</ufo1:event>
+        <rdfs:comment>Represents the occurrence of requesting a challenge as part of an authentication process.</rdfs:comment>
         <rdfs:label>ChallengeRequest</rdfs:label>
     </owl:Class>
     
@@ -878,7 +956,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:event></ufo1:event>
+        <ufo1:event>This class belongs to UFO&apos;s &quot;Event&quot; concept.</ufo1:event>
+        <rdfs:comment>Represents the action taken by an agent in response to a challenge, which is a time-bound occurrence involving a change or validation step within a process.</rdfs:comment>
         <rdfs:label>ChallengeResponse</rdfs:label>
     </owl:Class>
     
@@ -909,7 +988,8 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#ChallengeSetMarketplace"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:collective></ufo1:collective>
+        <ufo1:collective>This class belongs to UFO&apos;s &quot;Collective&quot; concept.</ufo1:collective>
+        <rdfs:comment>A structured grouping of individual challenges for identity authentication.</rdfs:comment>
         <rdfs:label>ChallengeSet</rdfs:label>
     </owl:Class>
     
@@ -927,7 +1007,8 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:role></ufo1:role>
+        <ufo1:role>This class belongs to UFO&apos;s &quot;Role&quot; concept.</ufo1:role>
+        <rdfs:comment>A context-dependent function in which a platform provides a space for managing and supplying challenge sets for authentication processes.</rdfs:comment>
         <rdfs:label>ChallengeSetMarketplace</rdfs:label>
     </owl:Class>
     
@@ -937,7 +1018,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#DAO">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind of an organization.</rdfs:comment>
         <rdfs:label>DAO</rdfs:label>
     </owl:Class>
     
@@ -960,7 +1042,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Organization"/>
-        <ufo1:kind></ufo1:kind>
+        <ufo1:kind>This class belongs to UFO&apos;s &quot;Kind&quot; concept.</ufo1:kind>
+        <rdfs:comment>Represents an essential type with its own unique characteristics (e.g., information or records).</rdfs:comment>
         <rdfs:label>Data</rdfs:label>
     </owl:Class>
     
@@ -976,7 +1059,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Asset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:mode></ufo1:mode>
+        <ufo1:mode>This class belongs to UFO&apos;s &quot;Mode&quot; concept.</ufo1:mode>
+        <rdfs:comment>A motivational state that depends on an agent’s action to do something he wishes for.</rdfs:comment>
         <rdfs:label>Desire</rdfs:label>
     </owl:Class>
     
@@ -986,7 +1070,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Diagnosis">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
-        <ufo1:event></ufo1:event>
+        <ufo1:event>This class belongs to UFO&apos;s &quot;Event&quot; concept.</ufo1:event>
+        <rdfs:comment>An act of diagnosing (an occurrence where a condition is identified).</rdfs:comment>
         <rdfs:label>Diagnosis</rdfs:label>
     </owl:Class>
     
@@ -996,7 +1081,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
-        <ufo1:kind></ufo1:kind>
+        <ufo1:kind>This class belongs to UFO&apos;s &quot;Kind&quot; concept.</ufo1:kind>
+        <rdfs:comment>Human is a kind includes characteristics such as intentional behavior and ability to act.</rdfs:comment>
         <rdfs:label>Human</rdfs:label>
     </owl:Class>
     
@@ -1006,7 +1092,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
-        <ufo1:category></ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Serves as a broad classification for entities possessing characteristics that verify or define ”who” or ”what” something is within the system.</rdfs:comment>
         <rdfs:label>Identity</rdfs:label>
     </owl:Class>
     
@@ -1016,7 +1103,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insuree">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind that inherits the properties of the human.</rdfs:comment>
         <rdfs:label>Insuree</rdfs:label>
     </owl:Class>
     
@@ -1026,7 +1114,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Insurer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind that inherits the properties of the human.</rdfs:comment>
         <rdfs:label>Insurer</rdfs:label>
     </owl:Class>
     
@@ -1043,7 +1132,8 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Authentication"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:mode></ufo1:mode>
+        <ufo1:mode>This class belongs to UFO&apos;s &quot;Mode&quot; concept.</ufo1:mode>
+        <rdfs:comment>A purposeful state directed toward future actions or outcomes.</rdfs:comment>
         <rdfs:label>Intention</rdfs:label>
     </owl:Class>
     
@@ -1059,7 +1149,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Belief"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:mode>Mental property</ufo1:mode>
+        <ufo1:mode>This class belongs to UFO&apos;s &quot;Mode&quot; concept.</ufo1:mode>
+        <rdfs:comment>Dependent on the agent’s mental state, represents an agent’s awareness or familiarity with certain facts or information.</rdfs:comment>
         <rdfs:label>Knowledge</rdfs:label>
     </owl:Class>
     
@@ -1069,7 +1160,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalContract">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument"/>
-        <ufo1:relator></ufo1:relator>
+        <ufo1:relator>This class belongs to UFO&apos;s &quot;Relator&quot; concept.</ufo1:relator>
+        <rdfs:comment>Establishes a formalized relationship between multiple entities (e.g., two parties in an agreement) and defines specific rights, obligations, and responsibilities.</rdfs:comment>
         <rdfs:label>LegalContract</rdfs:label>
     </owl:Class>
     
@@ -1079,7 +1171,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LegalDocument">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
-        <ufo1:category></ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Groups legal context, setting rights, and obligations.</rdfs:comment>
         <rdfs:label>LegalDocument</rdfs:label>
     </owl:Class>
     
@@ -1095,7 +1188,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#LicenseType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:relator></ufo1:relator>
+        <ufo1:relator>This class belongs to UFO&apos;s &quot;Relator&quot; concept.</ufo1:relator>
+        <rdfs:comment>Granting one party certain permissions or rights to use, access, or perform certain actions about another entity’s resources or services.</rdfs:comment>
         <rdfs:label>License</rdfs:label>
     </owl:Class>
     
@@ -1111,7 +1205,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#License"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:type></ufo1:type>
+        <ufo1:type>This class belongs to UFO&apos;s &quot;Type&quot; concept.</ufo1:type>
+        <rdfs:comment>It serves as a general classification system for different types of license (e.g., personal, commercial, or institutional).</rdfs:comment>
         <rdfs:label>LicenseType</rdfs:label>
     </owl:Class>
     
@@ -1121,7 +1216,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Mobile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind of a smart device.</rdfs:comment>
         <rdfs:label>Mobile</rdfs:label>
     </owl:Class>
     
@@ -1137,7 +1233,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:kind></ufo1:kind>
+        <ufo1:kind>This class belongs to UFO&apos;s &quot;Kind&quot; concept.</ufo1:kind>
+        <rdfs:comment>Agents with sensing or interactive capabilities.</rdfs:comment>
         <rdfs:label>NonHuman</rdfs:label>
     </owl:Class>
     
@@ -1153,7 +1250,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:kind></ufo1:kind>
+        <ufo1:kind>This class belongs to UFO&apos;s &quot;Kind&quot; concept.</ufo1:kind>
+        <rdfs:comment>A corporation or institution.</rdfs:comment>
         <rdfs:label>Organization</rdfs:label>
     </owl:Class>
     
@@ -1163,7 +1261,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#OwnershipProof">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
-        <ufo1:category></ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Includes different mechanisms, forms, or documents that verify an entity’s ownership over an asset.</rdfs:comment>
         <rdfs:label>OwnershipProof</rdfs:label>
     </owl:Class>
     
@@ -1173,6 +1272,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Risk">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Knowledge"/>
+        <ufo1:event>This class belongs to UFO&apos;s &quot;Event&quot; concept.</ufo1:event>
+        <rdfs:comment>Represents the realization or manifestation of a potential threat.</rdfs:comment>
         <rdfs:label>Risk</rdfs:label>
     </owl:Class>
     
@@ -1182,7 +1283,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SecurityPolicy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
-        <ufo1:category></ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Represents a high-level group of rules, guidelines, or protocols.</rdfs:comment>
         <rdfs:label>SecurityPolicy</rdfs:label>
     </owl:Class>
     
@@ -1192,7 +1294,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SelfSovereignIdentity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Identity"/>
-        <ufo1:category></ufo1:category>
+        <ufo1:category>This class belongs to UFO&apos;s &quot;Category&quot; concept.</ufo1:category>
+        <rdfs:comment>Shares the common principle of user control.</rdfs:comment>
         <rdfs:label>SelfSovereignIdentity</rdfs:label>
     </owl:Class>
     
@@ -1202,7 +1305,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Sensor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind of a smart device.</rdfs:comment>
         <rdfs:label>Sensor</rdfs:label>
     </owl:Class>
     
@@ -1218,7 +1322,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind of non-human kind.</rdfs:comment>
         <rdfs:label>SmartDevice</rdfs:label>
     </owl:Class>
     
@@ -1228,7 +1333,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Smartwatch">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#SmartDevice"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind of a smart device.</rdfs:comment>
         <rdfs:label>Smartwatch</rdfs:label>
     </owl:Class>
     
@@ -1238,7 +1344,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Specialist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Human"/>
-        <ufo1:subKind></ufo1:subKind>
+        <ufo1:subKind>This class belongs to UFO&apos;s &quot;SubKind&quot; concept.</ufo1:subKind>
+        <rdfs:comment>A sub kind that inherits the properties of the human.</rdfs:comment>
         <rdfs:label>Specialist</rdfs:label>
     </owl:Class>
 </rdf:RDF>
