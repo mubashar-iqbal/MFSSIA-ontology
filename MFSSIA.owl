@@ -600,6 +600,8 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#challengeTime"/>
+        <rdfs:comment>This data property describes the challenge details.</rdfs:comment>
+        <rdfs:label>challengeDetail</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -610,6 +612,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>This data property describes the challenge time.</rdfs:comment>
+        <rdfs:label>challengeTime</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -620,6 +624,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>This data property describes the challenge expiration time.</rdfs:comment>
+        <rdfs:label>expirationTime</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -630,6 +636,8 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mubashar/ontologies/2024/4/MFSSIA-ontology#Challenge"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>This data property describes the challenge id.</rdfs:comment>
+        <rdfs:label>id</rdfs:label>
     </owl:DatatypeProperty>
     
 
